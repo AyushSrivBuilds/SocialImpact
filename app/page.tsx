@@ -43,7 +43,7 @@ export default function Home() {
           <h2 className="mb-12 text-center text-3xl font-bold">Featured Campaigns</h2>
           <CampaignGrid limit={3} featured={true} />
           <div className="mt-12 text-center">
-            <Button asChild size="lg">
+            <Button asChild size="lg" className="bg-emerald-600 hover:bg-emerald-700">
               <Link href="/campaigns">View All Campaigns</Link>
             </Button>
           </div>
@@ -201,7 +201,12 @@ export default function Home() {
             >
               <Link href="/campaigns">Find a Campaign</Link>
             </Button>
-            <Button asChild size="lg" className="bg-white text-emerald-700 hover:bg-slate-100">
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="border-white bg-transparent text-white hover:bg-white hover:text-emerald-700"
+            >
               <Link href="/contact">Get Involved</Link>
             </Button>
           </div>
