@@ -71,27 +71,27 @@ export default function Footer() {
             <h3 className="mb-4 text-lg font-bold text-white">Resources</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/blog" className="hover:text-white">
+                <Link href="/" className="hover:text-white">
                   Blog
                 </Link>
               </li>
               <li>
-                <Link href="/impact-stories" className="hover:text-white">
+                <Link href="/" className="hover:text-white">
                   Impact Stories
                 </Link>
               </li>
               <li>
-                <Link href="/faq" className="hover:text-white">
+                <Link href="/" className="hover:text-white">
                   FAQ
                 </Link>
               </li>
               <li>
-                <Link href="/privacy" className="hover:text-white">
+                <Link href="/" className="hover:text-white">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link href="/terms" className="hover:text-white">
+                <Link href="/" className="hover:text-white">
                   Terms of Service
                 </Link>
               </li>
